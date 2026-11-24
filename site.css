@@ -447,3 +447,104 @@ border-radius: 15px;
     font-size:18px;
      padding: 5px 0 10px  3px ;
 }
+.info {
+  border: 1px solid #dadada;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 30px 0 0 55px;
+    height: 704px;
+    padding: 0 34px;
+    width: 14vw;
+    color: #000000;
+    font-size: small;  
+}
+.info a {
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.info a p {
+margin: 0 0 5px;
+}
+.info svg {
+ display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: -35px;
+}
+.info div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 0 0 40px  ;
+}
+.info div svg {
+    flex-shrink: 0;
+}
+.one  {
+    margin-top: 0;
+}
+.two {
+    margin-top: 15px;
+}
+.col-3 img {
+    
+    width: 78px;
+    height: 115px;
+    margin: 20px 0 0 130px;
+}
+.col-3 p {
+  text-align: left;
+ padding: 10px 0 0  10px ;
+ font-size: 12px;
+ margin: 0;
+}
+.col-3 s {
+    display: block;
+    color: #A6A5A5;
+     padding: 1px 0 0  40px ;
+      font-size: 18px;
+}
+.col-3 span {
+        display: flex;
+    color: #FF0008;
+    font-size:28px;
+     padding: 5px 0 30px  40px ;
+}
+.col-3-1 s {
+    display: flex;
+    color: #A6A5A5;
+     padding: 3px 0 0  15px ;
+      font-size: 12px;
+}
+.col-3-1 span {
+        display: flex;
+    color: #FF0008;
+    font-size:18px;
+     padding: 5px 0 10px  15px ;
+}
+.col-3-2 s {
+    display: flex;
+    color: #A6A5A5;
+     padding: 15px 0 0  15px ;
+      font-size: 12px;
+}
+.col-3-2 span {
+        display: flex;
+    color: #FF0008;
+    font-size:18px;
+     padding: 15px 0 5px 15px ;
+}
+.col-3-2 img {
+    width: 168px;
+    height: 185px;
+    margin: 60px 0 0 110px;
+}
